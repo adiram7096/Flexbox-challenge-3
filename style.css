@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.special{
+	display: flex;
+	flex-direction: row;
+}
+
+.navigation{
+	width: 20vw;
+	height: 100vh;
+	padding-left: 15px;
+	background-color: lightgreen;
+}
+
+.header{
+	width: 80vw;
+	height: 20vh;
+	padding-left: 15px;
+	background-color: lightblue;
+}
+
+.article{
+	width: 80vw;
+	height: 65vh;
+	padding-left: 15px;
+}
+
+.footer{
+	width: 80vw;
+	height: 15vh;
+	padding-left: 15px;
+	background-color: lightblue;	
+}
